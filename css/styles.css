@@ -31,6 +31,10 @@ img {
     display: block;
 }
 
+
+/*------------HEADER------------*/
+
+
 .head-border {
     border-bottom: 1px solid #e7e9fc;
     height: 72px;
@@ -78,7 +82,6 @@ img {
     display: flex;
     flex-direction: column;
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    position: relative;
 }
 
 .menu:hover 
@@ -88,9 +91,13 @@ img {
 
 .menu-studio {
     color: #404BBF;
+    position: relative;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.menu-studio:active::after {
+
+
+.menu-studio::after {
     content: '';
     display: flex;
     width: 48px;
@@ -131,6 +138,11 @@ img {
 ,.contact-text:active {
     color: #404BBF;
 }
+
+
+/*------------HERO------------*/
+
+
 
 .hero {
     background-color: #2E2F42;
@@ -177,6 +189,12 @@ img {
 .hero-button:focus {
     background-color: #404BBF;
 }
+
+
+
+/*------------ADVANTAGES------------*/
+
+
 
 .advantages {
     padding: 120px 0;
@@ -230,6 +248,13 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
+
+
+
+/*------------OUR TEAM------------*/
+
+
+
 
 .our-team {
     background-color: #F4F4FD;
@@ -317,6 +342,13 @@ img {
     text-align: center;
 }
 
+
+
+/*------------PORTFOLIO------------*/
+
+
+
+
 .portfolio {
     padding-top: 120px;
     padding-bottom: 120px;
@@ -366,6 +398,12 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
+
+
+
+/*------------FOOTER------------*/
+
+
 
 .footer {
     background-color: #2E2F42;
